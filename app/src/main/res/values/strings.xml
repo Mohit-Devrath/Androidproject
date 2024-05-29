@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">API intigration</string>
+    <string name="post_request_using_volley">POST Request using Volley</string>
+</resources>
