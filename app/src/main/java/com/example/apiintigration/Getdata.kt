@@ -38,10 +38,7 @@ class MainActivity : AppCompatActivity() {
                 Toast.makeText(applicationContext, "Response :$response", Toast.LENGTH_LONG)
                     .show()
             }
-        }, object : ErrorListener() {
-            fun onErrorResponse(error: VolleyError) {
-                Log.i(ContentValues.TAG, "Error :" + error.toString())
-            }
+        }
         })
         mRequestQueue.add(mStringRequest)
     }
